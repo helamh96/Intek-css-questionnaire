@@ -1,22 +1,38 @@
-.albums{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 10px;
-}
-
 .album{
-  display: grid;
-  grid-template-columns: 100px 1fr;
-  align-items: center;
-  grid-gap: 5px;
+  float: left;
+  height: 24%;
+  margin: 1%;
+  width: 21%;
+  padding: 10px;
+  background-color: #DFDCEA;
+  border-style: inset;
+  font-size: x-small;
 }
 
+.file{
+  display: flex;
+  width: 100%;
+}
 .cent{
   text-align: center;
   justify-content: center;
+  font-size: xx-large;
+}
+
+.arts{
+  float: left;
+  width: 35%;
+}
+
+.info{
+  font-size: medium;
+  padding-left: 2%;
+  float: left;
+  width: 62%;
 }
 
 .art{
+  float: left;
   width: 100%;
+  height: 100%;
 }
-
