@@ -8,7 +8,7 @@ body {
 }
 
 label {
-  background-image: url("/stars_1.png");
+  background-image: url("https://assets.codepen.io/13090/stars_1.png");
   background-repeat: none;
   background-position: 0 0;
   width: 355px;
