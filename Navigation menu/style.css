@@ -125,7 +125,8 @@ body {
 
 
 .right:checked ~ .container>.navbar>.dropdown>.dropdown-content{
-  left: -118%;
+  left:unset;
+  right: 100%;
 }
 
 .top:checked ~ .container>.navbar>.dropdown>.dropdown-content{
