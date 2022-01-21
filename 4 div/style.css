@@ -1,18 +1,18 @@
 .album{
   float: left;
-  height: 24%;
-  margin: 1%;
-  width: 21%;
+  height: 80%;
+  width: 80%;
   padding: 10px;
   background-color: #DFDCEA;
   border-style: inset;
   font-size: x-small;
 }
-
-.file{
-  display: flex;
-  width: 100%;
+.container{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit,minmax(23%,1fr));
 }
+
 .cent{
   text-align: center;
   justify-content: center;
@@ -22,6 +22,7 @@
 .arts{
   float: left;
   width: 35%;
+  height: 100%;
 }
 
 .info{
@@ -29,6 +30,7 @@
   padding-left: 2%;
   float: left;
   width: 62%;
+  height: 100%;
 }
 
 .art{
